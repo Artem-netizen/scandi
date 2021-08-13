@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCANDI</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/commun.css">
+</head>
+<!--
+    font-family: 'Montserrat', sans-serif;
+-->
+
+<body>
+    <header class="header" id="header">
+        <div class="header__wrapper">
+            <div class="header__nav">
+                <div class="fas fa-bars open-menu active-bar" id="btn"></div>
+                <div class="fas fa-times close-menu " id="cancel"></div>
+                <!-- <form action="">
+                    <input type="checkbox" id="check">
+                    <label for="check">
+                        <i class="fas fa-bars" id="btn"></i>
+                        <i class="fas fa-times" id="cancel"></i>
+                    </label>
+                </form> -->
+                <div class="sidebar">
+                    <ul class="mobile">
+                        <li class="mobile__item">
+                            <a href="#about" class="mobile__link">
+                                <i class="fa fa-building-o" aria-hidden="true">
+                                        О компании
+                                </i>
+                            </a>
+                        </li>
+                        <li class="mobile__item">
+                            <a href="#works" class="mobile__link">
+                                <i class="fa fa-handshake-o" aria-hidden="true">Портфолио</i>
+                            </a>
+                        </li>
+                        <li class="mobile__item">
+                            <a href="#team" class="mobile__link">
+                                <i class="fa fa-terminal" aria-hidden="true">Команда</i>
+                            </a>
+                        </li>
+                        <li class="mobile__item">
+                            <a href="#team" class="mobile__link">
+                                <i class="fa fa-briefcase" aria-hidden="true">Как мы работаем </i>
+                            </a>
+                        </li>
+                        <li class="mobile__item">
+                            <a href="#review" class="mobile__link">
+                                <i class="fa fa-commenting-o" aria-hidden="true">Отзывы клиентов</i>
+                            </a>
+                        </li>
+                        <li class="mobile__item">
+                            <a href="#contact" class="mobile__link">
+                                <i class="fa fa-question-circle" aria-hidden="true">Оставить заявку</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__logo">
+                    <a href="#" class="logo__link">
+                        <img src="./image/logo.png" alt="logo">
+                        <span class="logo__span">SCANDI</span>
+                    </a>
+                </div>
+                <nav class="nav">
+                    <ul class="main__nav">
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                О компании
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#works" class="nav__link">
+                                Портфолио
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#team" class="nav__link">
+                                Команда
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#team" class="nav__link">
+                                Как мы работаем                            
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#review" class="nav__link">
+                                Отзывы клиентов                            
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                Оставить заявку
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__tel">
+                    <a href="+7 (981) 857-46-24" class="telephone">
+                        +7 (981) 857-46-24
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container-wrap">
+            <div class="main__title">
+                <div class="room">
+                    <h2 class="subtitle">
+                        Поможем сделать вашу квартиру уютнее
+                    </h2>
+                    <p class="room__text">
+                        Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем организовать доставку
+                    </p>
+                </div>
+                <div class="room__button">
+                    <a href="#" class="room__link">
+                        Оставить заявку
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container-wrap">
+            <div class="about__wrapper">
+                <div class="about__title">
+                    <h2 class="about__advan">
+                        О нас
+                    </h2>
+                </div>
+                <div class="about__item">
+                    <div class="about__image">
+                        <img src="./image/shche_team.png" alt="image: table" class="table">
+                    </div>
+                    <div class="about__text-team">
+                        <p class="about__text">
+                            Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то, что по-настоящему вдохновляет дизайнеров нашей студии.
+                        </p>
+                        <p class="about__text">
+                            Наш коллектив сделает все, чтобы после сотрудничества с нами, Вам было приятно сказать: « Да! Это именно то, что действительно достойно моего дома!»
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages" id="advantages">
+        <div class="container-wrap">
+            <div class="advantages__wrapper">
+                <div class="advantages__title">
+                    <h2 class="adv__text">
+                        5
+                    </h2>
+                    <p class="experience">
+                        лет опыта
+                    </p>
+                </div>
+                <div class="advantages__title">
+                    <h2 class="adv__text">
+                        100
+                    </h2>
+                    <p class="experience">
+                        проектов
+                    </p>
+                </div>
+                <div class="advantages__title">
+                    <h2 class="adv__text">
+                        10
+                    </h2>
+                    <p class="experience">
+                        наград
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="works" id="works">
+        <div class="header__wrapper">
+            <div class="works__wrapper">
+                <div class="works__main-title">
+                    <h2 class="works__title">
+                        Наши работы
+                    </h2>
+                </div>
+                <div class="works__item">
+                    <div class="works__image">
+                        <div class="work__object object">
+                            <img src="./image/image1.jpg" alt="image">
+                            <div class="works__inner">
+                                <p class="works__img">
+                                    Квартира-студия 30 кв.м.
+                                </p>
+                                <p class="works__img-one">
+                                    В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="work__object object">
+                            <img src="./image/image2.jpg" alt="image">
+                            <div class="mask"></div>
+                            <div class="works__inner">
+                                <p class="works__img">
+                                    Квартира-студия 30 кв.м.
+                                </p>
+                                <p class="works__img-one">
+                                    В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="works__image">
+                        <div class="work__object object">
+                            <img src="./image/image3.jpg" alt="image">
+                            <div class="mask"></div>
+                            <div class="works__inner">
+                                <p class="works__img">
+                                    Квартира-студия 30 кв.м.
+                                </p>
+                                <p class="works__img-one">
+                                    В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="work__object object">
+                            <img src="./image/image4.jpg" alt="image">
+                            <div class="mask"></div>
+                            <div class="works__inner">
+                                <p class="works__img">
+                                    Квартира-студия 30 кв.м.
+                                </p>
+                                <p class="works__img-one">
+                                    В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="more-btn">
+                    <span>Смотреть ещё</span>
+                    <img src="./image/Arrow.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team" id="team">
+        <div class="container-wrap">
+            <div class="team__top">
+                <div class="team__people">
+                    <div class="team__subtitle">
+                        <p class="team__title">
+                            Команда
+                        </p>
+                    </div>
+                    <div class="team__item">
+                        <div class="team__cards">
+                            <div class="team__card-image">
+                                <img src="./image/img3.jpg " alt="people">
+                            </div>
+                            <div class="team__card-text">
+                                <p class="team__text">
+                                    Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам домой, общается и помогает сделать вашу квартиру красивой и уютной.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="team__cards">
+                            <div class="team__card-image">
+                                <img src="./image/img2.jpg " alt="people">
+                            </div>
+                            <div class="team__card-text">
+                                <p class="team__text">
+                                    С нашим менеджером Сашей вы познакомитесь в первую очередь. Она проконсультирует вас, соберёт все документы и ответит на все вопросы.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="team__cards">
+                            <div class="team__card-image">
+                                <img src="./image/img1.jpg " alt="people">
+                            </div>
+                            <div class="team__card-text">
+                                <p class="team__text">
+                                    Катя тоже занимается дизайном. Она всегда находит общий язык с клиентами и точно знает, как обсутроить дом так, чтобы вам понравилось.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__wrapper">
+            <div class="how__we-work">
+                <div class="who-we-are">
+                    <h2 class="what-we-doing">
+                        Как мы работаем
+                    </h2>
+                </div>
+                <div class="degrees">
+                    <div class="degrees__card">
+                        <div class="degrees__item">
+                            <p class="text-one">
+                                1
+                            </p>
+                        </div>
+                        <div class="degrees__subtext">
+                            <p class="degrees-text">
+                                Знакомимся, выезжаем на объект, утверждаем концепцию, подписывем договор.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="degrees__card">
+                        <div class="degrees__item">
+                            <p class="text-one">
+                                2
+                            </p>
+                        </div>
+                        <div class="degrees__subtext">
+                            <p class="degrees-text">
+                                Подбираем мебель, текстиль, аксессуры. Делаем 3D- зуализацию.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="degrees__card">
+                        <div class="degrees__item">
+                            <p class="text-one">
+                                3
+                            </p>
+                        </div>
+                        <div class="degrees__subtext">
+                            <p class="degrees-text">
+                                Находим нужные магазины, помогаем с доставкой и оплатой товаров.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="degrees__card">
+                        <div class="degrees__item">
+                            <p class="text-one">
+                                4
+                            </p>
+                        </div>
+                        <div class="degrees__subtext">
+                            <p class="degrees-text">
+                                Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем шторы, находим места для мелочей
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="review" id="review">
+        <div class="container-wrap">
+            <div class="review__wrapper">
+                <div class="review__main-title">
+                    <h2 class="review__title">
+                        Отзывы
+                    </h2>
+                </div>
+                <div class="testimonials">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <div class="layer"></div>
+                                    <div class="content">
+                                        <p>
+                                            «Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.
+                                        </p>
+                                        <div class="imgBx">
+                                            <img src="./image/tan1.jpg" alt="">
+                                        </div>
+                                        <div class="details">
+                                            <h2>Анна Беловская</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <div class="layer"></div>
+                                    <div class="content">
+                                        <p>
+                                            «Профессиональная команда, выполнили всё в срок, качественно. Обязательно будем сотрудничать в будущем!»
+                                        </p>
+                                        <div class="imgBx">
+                                            <img src="./image/tan2.jpg" alt="">
+                                        </div>
+                                        <div class="details">
+                                            <h2>Анна Беловская</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <div class="layer"></div>
+                                    <div class="content">
+                                        <p>
+                                            «Отличная гостинная! В ней так приятно отдыхать! «Профессиональная команда, выполнили всё в срок, качественно.
+                                        </p>
+                                        <div class="imgBx">
+                                            <img src="./image/tan1.jpg" alt="">
+                                        </div>
+                                        <div class="details">
+                                            <h2>Анна Беловская</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <div class="layer"></div>
+                                    <div class="content">
+                                        <p>
+                                            «Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.
+                                        </p>
+                                        <div class="imgBx">
+                                            <img src="./image/tan2.jpg" alt="">
+                                        </div>
+                                        <div class="details">
+                                            <h2>Анна Беловская</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <div class="layer"></div>
+                                    <div class="content">
+                                        <p>
+                                            «Профессиональная команда, выполнили всё в срок, качественно. Обязательно будем сотрудничать в будущем!»
+                                        </p>
+                                        <div class="imgBx">
+                                            <img src="./image/tan1.jpg" alt="">
+                                        </div>
+                                        <div class="details">
+                                            <h2>Анна Беловская</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <div class="layer"></div>
+                                    <div class="content">
+                                        <p>
+                                            «Отличная гостинная! В ней так приятно отдыхать! «Профессиональная команда, выполнили всё в срок, качественно.
+                                        </p>
+                                        <div class="imgBx">
+                                            <img src="./image/tan2.jpg" alt="">
+                                        </div>
+                                        <div class="details">
+                                            <h2>Анна Беловская</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <div class="layer"></div>
+                                    <div class="content">
+                                        <p>
+                                            «Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.
+                                        </p>
+                                        <div class="imgBx">
+                                            <img src="./image/tan1.jpg" alt="">
+                                        </div>
+                                        <div class="details">
+                                            <h2>Анна Беловская</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review__main-slide slider">
+                    <div class="reviews__item">
+                        <div class="reviews__text">
+                            <p class="reviews__main-text">
+                                «Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.
+                            </p>
+                            <p class="reviews__main-text">
+                                Работа шла быстро, было очень приятно общаться и взаимодествовайть </br>
+                                с сотрудниками. Не ожидала, что это будет так легко!</p>
+                            <p class="reviews__main-text">
+                                Буду советовать и своим друзьям к вам обращаться!»</p>
+                            <p class="reviews__author">Анна Беловская</p>
+                        </div>
+                        <div class="reviews__images">
+                            <img src="./image/tan1.jpg" alt="" class="reviews__img reviews__image--1">
+                            <img src="./image/tan2.jpg" alt="" class="reviews__img reviews__image--2">
+                        </div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__text">
+                            <p class="reviews__main-text">
+                                «Профессиональная команда, выполнили всё в срок, качественно.
+                            </p>
+                            <p class="reviews__main-text">Обязательно будем сотрудничать в будущем!»</p>
+                            <p class="reviews__author">Татьяна Танкович</p>
+                        </div>
+                        <div class="reviews__images">
+                            <img src="./image/tan1.jpg" alt="" class="reviews__img reviews__image--1">
+                            <img src="./image/tan2.jpg" alt="" class="reviews__img reviews__image--2">
+                        </div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__text">
+                            <p class="reviews__main-text">
+                                «Отличная гостинная! В ней так приятно отдыхать!
+                            </p>
+                            <p class="reviews__main-text">Работа шла не быстро, но в постоянном темпе, без простаивания</p>
+                            <p class="reviews__paragraph">Буду советовать и своим друзьям к вам обращаться!»</p>
+                            <p class="reviews__author">Иван Синенко</p>
+                        </div>
+                        <div class="reviews__images">
+                            <img src="./image/tan1.jpg" alt="" class="reviews__img reviews__image--1">
+                            <img src="./image/tan2.jpg" alt="" class="reviews__img reviews__image--2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact__wrapper">
+            <div class="contact__inner">
+                <div class="contact__item">
+                    <div class="contact__subtitle">
+                        <h2 class="contact__title">
+                            Оставить заявку
+                        </h2>
+                        <p class="contact__text">
+                            Оставьте свои контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы.
+                        </p>
+                    </div>
+                    <div class="contact__input">
+                        <div class="inp__dev">
+                            <input type="text" class="input" placeholder="Ваше имя">
+                        </div>
+                        <div class="inp__dev">
+                            <input type="tel" class="input" placeholder="Введите телефон">
+                        </div>
+                    </div>
+                    <div class="contact__button">
+                        <a href="#" class="contact__link-btn">
+                            Оставить заявку
+                        </a>
+                    </div>
+                </div>
+                <div class="contact__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1081.9050436358593!2d30.322462074730815!3d59.9387614033772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310e14b2a215%3A0x6b086bf13e868d68!2z0JrQvtC90Y7RiNC10L3QvdCw0Y8sIDI!5e0!3m2!1sru!2sru!4v1616786771020!5m2!1sru!2sru"
+                        width="624" height="580" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer__wrapper">
+            <div class="footer__item">
+                <div class="footer__inner">
+                    <div class="footer__tel">
+                        <a href="#" class="footer__tel-link">
+                            +7 (981) 857-46-24
+                        </a>
+                    </div>
+                    <div class="address">
+                        <p class="adre">
+                            г. Санкт-петербург, ул. Большая Конюшенная, 19
+                        </p>
+                    </div>
+                </div>
+                <div class="busines">
+                    <p class="busines__text">
+                        ИП Королёва А.А.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Основные скрипты - слайдер-->
+    <script src=" ./js/js/jQuery.js "></script>
+    <script src="./js/js/slick.min.js "></script>
+    <script src="./js/js/carousel.js "></script>
+
+    <!--Скрипт для меню мобилки-->
+    <script src="./js/js/open-burger.js"></script>
+
+    <!--Скрипты для мобилки-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            loop: true,
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>
